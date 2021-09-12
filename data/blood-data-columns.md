@@ -1,0 +1,217 @@
+# Blood Data Column Meanings
+
+- Patient ID:
+    - irrelevant
+- Patient Age Quantile:
+    - indicates relative age of patient
+- SARS-Cov-2 Exam Result:
+    - whether COVID-19 detected
+- Patient Admitted to Regular Ward:
+    - indicates severity of case
+- Patient Admitted to Semi-Intensive Unit:
+    - indicates severity of case
+- Patient Admitted to Intensive Care Unit:
+    - indicates severity of case
+- Hematocrit:
+    - percentage of red blood cells in blood (normal range: 36%-50%, depending on sex)
+    - low: anemia (not enough red blood cells to carry oxygen to tissues), high: polycythemia (increased chance of blood clots)
+- Hemoglobin:
+    - density of hemoglobin in blood (normal range: 12.0-17.5 g/dL, depending on sex)
+    - hemoglobin is a protein that carries O2 and flushes CO2 to and from tissues
+    - low: anemia, high: can be caused by smoking, dehydration, etc.
+- Platelets:
+    - number of platelets in blood (normal range: 150k-400k per µL)
+    - platelets are small blood cells that help with clotting (stop bleeding after injury)
+- Mean Platelet Volume:
+    - average size of platelets (normal range: 7.5-12 fL)
+    - low: bone marrow not producing enough, high: vice versa (used in conjunction with other tests)
+- Red Blood Cells:
+    - number of red blood cells in blood (normal range: 4.2-6.1 million per µL)
+    - low: anemia, high: result of condition that limits oxygen supply
+- Lymphocytes:
+    - number of B and T cells in blood (normal range: 1k-5k per µL)
+    - low: autoimmune disorder, high: indicative of an ongoing infection
+- Mean Corpuscular Hemoglobin Concentration (MCHC):
+    - average concentration of hemoglobin inside a single red blood cell (MCH/MCV) (normal range: 33.4-35.5 g/dL)
+    - low: anemia, high: fragile red blood cells
+- Leukocytes:
+    - number of white blood cells in blood (including lymphocytes) (normal range: 4k-11k per µL)
+    - low: decreased ability to fight infection, high: ongoing infection
+- Basophils:
+    - number of basophils (type of white blood cell that fights fungal/bacterial infections and viruses) (normal range: 0-300 per µL, depending on lab/region/population)
+    - low: related to allergic reactions, high: thyroid gland not producing enough thyroid hormone, too many white blood cells
+- Mean Corpuscular Hemoglobin (MCH):
+    - average quantity of hemoglobin inside a single red blood cell (normal range: 27.5-33.2 pg/cell)
+    - low: anemia (iron deficiency), high: fragile red blood cells (Vitamin B deficiency)
+- Eosinophils
+    - number of eosinophils (type of white blood cell that curbs infections and boost inflammation) (normal range: < 500 per µL)
+    - low: intoxication, overproduction of cortisol, high: related to allergic reactions, asthma, ongoing infection
+- Mean Corpuscular Volume (MCV):
+    - average size of red blood cells (hematocrit*10/[red blood cells]) (normal range: 80-100 fL)
+    - low: anemia (iron deficiency, internal bleeding), high: fragile red blood cells (Vitamin B12 deficiency)
+- Monocytes:
+    - number of monocytes (type of white blood cell that kills microorganisms, cancer cells, and foreign substances) (normal range: 200-950 per µL)
+    - low: autoimmune disorder, high: chronic inflammatory disease, ongoing infection
+- Red Blood Cell Distribution Width (RDW):
+    - variation in size/volume of red blood cells (normal range: 11%-15%)
+    - low: desirable, high: issues producing red blood cells (inflammation, alcoholism, liver disease)
+- Serum Glucose:
+    - amount of glucose in blood (normal range: 70-100 mg/dL)
+    - low: hypoglycemia (low blood sugar), high: diabetes/low insulin
+- Respiratory Syncytial Virus:
+    - whether RSV (common cold-like respiratory virus, mild symptoms) is detected
+- Influenza A:
+    - whether influenza A detected
+- Influenza B:
+    - whether influenza B detected
+- Parainfluenza 1:
+    - whether parainfluenza 1 (HPIV-1) detected (mainly children and those with weakened immune systems)
+- CoronavirusNL63:
+    - whether coronavirus-NL63 (mild, typically affect children and immunocompromised) detected
+- Rhinovirus/Enterovirus:
+    - whether rhinovirus (common cold)/enterovirus (mild, common-cold-like) detected
+- Mycoplasma Pneumoniae:
+    - irrelevant (column blank)
+- Coronavirus HKU1:
+    - whether coronavirus-HKU1 (mild, typically affect children and immunocompromised) detected
+- Parainfluenza 3:
+    - whether parainfluenza 3 (HPIV-3) detected (associated with bronchitis and pneumonia)
+- Chlamydophila Pneumoniae:
+    - whether chlamydophila pneumoniae (pneumonia-causing bacteria) detected
+- Adenovirus:
+    - whether adenovirus (common, causes fevers, colds, respiratory illnesses) detected
+- Parainfluenza 4:
+    - whether parainfluenza 4 (HPIV-4) detected (associated with mild to severe respiratory illnesses, rarely detected)
+- Coronavirus 229E:
+    - whether coronavirus-229E (mild, typically affect children and immunocompromised) detected
+- CoronavirusOC43:
+    - whether coronavirus-OC43 (mild, typically affect children and immunocompromised) detected
+- Inf A H1N1 2009:
+    - whether H1N1 influenza A (caused 2009 swine flu pandemic) detected
+- Bordetella Pertussis:
+    - whether bordetella pertussis (bacteria that causes whooping cough) detected
+- Metapneumovirus:
+    - whether metapneumovirus (cold-like upper respiratory illness) detected
+- Parainfluenza 2:
+    - whether parainfluenza 2 (HPIV-2) detected (mainly children and those with weakened immune systems)
+- Neutrophils:
+    - number of neutrophils (type of white blood cell that kills bacteria and fungi) (normal: 1.5k-8k per µL)
+    - low: weakened immune system, high: bacterial infection
+- Urea:
+    - amount of blood urea nitrogen, produced by kidneys (assesses how well liver and kidneys work) (normal: 7-20 mg/dL)
+    - low: liver issues, unhealthy diet, high: dehydration, kidney issues
+- Proteina C Reativa mg/dL:
+    - test for C-reactive protein (increases during inflammation) (normal: < 1 mg/dL)
+    - low: desirable, high: inflammation
+- Creatinine:
+    - amount of blood creatinine, produced by muscles (assesses how well kidneys work) (normal: 0.6-1.3 mg/dL, depending on sex)
+    - low: muscle/liver issues, high: dehydration, kidney issues
+- Potassium:
+    - amount of blood electrolyte potassium (normal: 3.6-5.2 mmol/L)
+    - low: alcoholism, diet issues, high: kidney disease
+- Sodium:
+    - amount of blood electrolyte sodium (normal: 135-145 mEq/L)
+    - low: kidney/gastrointestinal issues, high: kidney/adrenal gland issues
+- Influenza B, Rapid Test:
+    - whether influenza B detected via rapid test
+- Influenza A, Rapid Test:
+    - whether influenza A detected via rapid test
+- Alanine Transaminase:
+    - amount of enzyme ALT, found mainly in liver (normal: 7-55 units/L, depending on sex)
+    - low: desirable (liver not releasing much into bloodstream), high: liver issues
+- Aspartate Transaminase:
+    - amount of enzyme AST, found mainly in liver (normal: 9-40 units/L, depending on sex)
+    - low: desirable, high: liver issues
+- Gamma-Glutamyltransferase:
+    - amount of GGT, found mainly in liver (normal: 0-30 units/L, depending on sex)
+    - low: desirable, high: liver issues
+- Total Bilirubin:
+    - level of bilirubin (yellowish pigment made during breakdown of RBC, =direct+indirect) (normal: <1.2 mg/dL, depending on age)
+    - low: desirable, high: liver issues
+- Direct Bilirubin:
+    - level of form of bilirubin after it passes through liver (normal: <0.3 mg/dL, depending on age)
+    - low: desirable, high: liver issues
+- Indirect Bilirubin:
+    - level of form of bilirubin before it passes through liver (normal: < 0.9 mg/dL, depending on age)
+    - low: desirable, high: liver issues
+- Alkaline Phosphatase:
+    - amount of enzyme ALP, found mainly in liver and bones (normal: 20-140 units/L)
+    - low: defiency in zinc & magnesium, high: liver disease/bone disorders
+- Ionized Calcium:
+    - irrelevant (not enough data)
+- Strepto A:
+    - detects antibodies for streptolysin O (whether patient had strep A infection recently/currently)
+- Magnesium:
+    - irrelevant (not enough data)
+- pCO2 (Venous Blood Gas Analysis):
+    - partial pressure of gaseous CO2 in equilibrium with blood (normal: 40-50 mmHg)
+    - low: respiratory alkalosis (hyperventilation), high: respiratory acidosis (lungs cannot remove all CO2)
+- Hb Saturation (Venous Blood Gas Analysis):
+    - fraction of oxygen-saturated hemoglobin relative to total hemoglobin in blood (normal: 95-100%)
+    - low: asthma, respiratory problems, high: desirable
+- Base Excess (Venous Blood Gas Analysis):
+    - amount of base required to normalize pH of blood to 7.4 (normal: -2—2 mEq/L)
+    - low: (respiratory) acidosis (buildup of toxins), high: (respiratory) alkalosis (liver, kidney, digestive issues)
+- pO2 (Venous Blood Gas Analysis):
+    - amount of oxygen dissolved in blood (i.e. not carried by hemoglobin) (normal: 30-40 mmHg)
+    - low: decreased oxygen intake (atmosphere, lung problems), high: increased oxygen atmosphere, polycythemia
+- Fio2 (Venous Blood Gas Analysis):
+    - irrelevant (not enough data)
+- Total CO2 (Venous Blood Gas Analysis):
+    - total amount of CO2 in blood (gaseous + dissolved) (normal: 23-29 mEq/L)
+    - low: (respiratory) acidosis, high: (respiratory) alkalosis
+- pH (Venous Blood Gas Analysis):
+    - pH of blood (normal: 7.31-7.41)
+    - low: (respiratory) acidosis, high: (respiratory) alkalosis
+- HCO3 (Venous Blood Gas Analysis):
+    - concentration of bicarbonate in blood (normal: 22-26 mEq/L)
+    - low: (respiratory) acidosis, high: (respiratory) alkalosis
+- Rods #:
+    - irrelevant (not enough data)
+- Segmented:
+    - irrelevant (not enough data)
+- Promyelocytes:
+    - irrelevant (not enough data)
+- Metamyelocytes:
+    - irrelevant (not enough data)
+- Myelocytes:
+    - irrelevant (not enough data)
+- Myeloblasts:
+    - irrelevant (not enough data)
+- Urine Categories:
+    - irrelevant (not enough data and not blood-related)
+- Partial Thromboplastin Time (PTT):
+    - irrelevant (column blank)
+- Relationship (Patient/Normal):
+    - irrelevant (not enough data)
+- International Normalized Ratio (INR):
+    - amount of prothrombin (blood-clotting protein) in blood
+    - expressed as a ratio in relationship to other patients (normal: < 1.1)
+    - low: blood clots too quickly, high: blood clots too slowly/not at all
+- Lactic Dehydrogenase:
+    - level of LDH (enzyme that helps make body's energy, found in tissues) in blood (normal: 140-280 u/L)
+    - low: (rare) genetic mutation, high: tissue damage/disease
+- Prothrombin time (PT), Activity:
+    - irrelevant (column blank)
+- Vitamin B12:
+    - irrelevant (not enough data)
+- Creatine Phosphokinase (CPK):
+    - amount of CPK (enzyme helps make body's energy) in blood (normal: 10-120 µg/L)
+    - low: muscle atrophy, high: muscle damage
+- Ferritin:
+    - irrelevant (not enough data)
+- Arterial Lactic Acid:
+    - irrelevant (not enough data)
+- Lipase Dosage:
+    - irrelevant (not enough data)
+- D-Dimer:
+    - irrelevant (column blank)
+- Albumin:
+    - irrelevant (not enough data)
+- Arterial Blood Gas Analysis Categories:
+    - irrelevant (not enough data)
+- Phosphor:
+    - irrelevant (not enough data)
+
+
+## Note: "not enough data" defined as having < 100 entries in a column
