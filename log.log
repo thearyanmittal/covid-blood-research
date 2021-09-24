@@ -1,0 +1,19 @@
+- check and clean data
+    - drop na
+    - denormalize?
+
+- exploratory data analysis
+    - correlation heatmaps, linear regression coefficients
+    - dataframe statistics per column (Float data has been normalized, not original test results)
+        - num of data points, central tendency (if µ = 0 and σ = 1, then normalized)
+        - how many of each output (how many + vs how many -)
+
+- data processing and transformation
+    - check and clean data
+
+- variable selection
+    - based on how many rows with no na
+    - what each indicates biologically (focus on oxygen bc COVID is a respiratory disease)
+    - based on correlation heatmaps, linear regression coefficients
+
+- prediction model comparison
